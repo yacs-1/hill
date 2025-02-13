@@ -1,6 +1,19 @@
-body {
-  background-color:#FF665E;
-  color:white;
-  font-family: veranda
-  
+body{
+  background-color:#FBA29D;
+  color:black;
+  text-align:left;
+  font-family:'Funnel Sans';
+  margin-left:10%;
+  margin-right:10%;
+}
+.heading{
+ font-family:Caprasimo,cursive;
+ font-weight:lighter;
+ text-align:center;
+ font-size:300%;
+ color:black;
+ text-shadow:#ffffff 2px 2px
+}
+h2.heading{
+  font-size:200%;
 }
