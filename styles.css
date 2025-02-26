@@ -18,7 +18,7 @@ h2.heading{
     font-size:200%;
 } 
 h3.heading{
-  font-size:100%
+  font-size:100%;
 }
 .bordered{ 
   border-style: solid; 
