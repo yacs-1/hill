@@ -15,8 +15,11 @@ body{
   text-shadow:#ffffff 2px 2px 
 } 
 h2.heading{ 
-    font-size:200%; 
+    font-size:200%;
 } 
+h3.heading{
+  font-size:100%
+}
 .bordered{ 
   border-style: solid; 
   border-color: #ffffff; 
