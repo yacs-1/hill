@@ -1,0 +1,99 @@
+body{
+  background-color:white;
+  text-align:center;
+  margin: 0px;
+}
+#preheader{
+  background-color:white; 
+  border:solid;
+  border-color:white;
+  width:100%;
+  z-index:10;
+}
+#header{
+  background-color:white;
+  width:100%;
+  position:sticky;
+  top:0px;
+}
+#bg{
+  position:fixed;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:-999;
+}
+.article{
+  background-color:rgb(255,255,255,0.60);
+  margin-left:10%;
+  margin-right:10%;
+  padding:5px;
+}
+.heading{
+  font-family:'Rouge Script';
+  font-size:xx-large;
+  font-weight:bold;
+}
+
+#gorilla{
+  float:right;
+  border:solid 1px black;
+}
+#chimpanzee{
+  float:right;
+  border:solid 1px black;
+}
+#orangutan{
+  float:right;
+  border:solid 1px black;
+}
+.navlink:hover{
+  color:#1D1D1D;
+  background-color:#DEDCDC;
+}
+.navlink{
+  color:rgb(84,84,84);
+  display:inline-block;
+  width:23%; 
+  text-decoration:none;
+}
+.navlink-spacer{
+  color:rgb(84,84,84);
+  font-size:x-large;
+  font-weight:bold;
+}
+hr{
+  width:50%;
+  height:1px;
+  background-color:#000000;
+  border:0px;
+}
+#footer{
+  background-color:white;
+  border:solid;
+  border-color:white;
+  font-size:small;
+  color:#1D1D1D
+}
+#publish-info{
+  text-align:right;
+  padding-left:20%;
+  float:left;
+  background-color:white;
+  border:solid;
+  border-color:white;
+}
+#address{
+  text-align:left;
+  padding-right:20%;
+  float:right;
+  background-color:white;
+  border:solid;
+  border-color:white;
+}
+#vertical-bar{
+  border:solid 1px ;
+  border-color:#393939;
+  display:inline-block;
+  height:5lh;
+}
