@@ -63,10 +63,11 @@ body{
   font-weight:bold;
 }
 hr{
-  width:100%;
+  width:75%;
   height:1px;
   background-color:#000000;
   border:0px;
+  float:left;
 }
 #footer{
   background-color:white;
