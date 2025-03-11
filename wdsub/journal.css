@@ -18,7 +18,7 @@ body{
 }
 #bg{
   position:fixed;
-  width:100vw;
+  height:150vh;
   top:0px;
   left:0px;
   z-index:-999;
