@@ -1,1 +1,37 @@
+body{
+  margin:0px;
+}
+#banner{
+  max-width:100vw;
+  
+}
+#content,#album,#info{
+  float:left
+}
+#content{
+  border:solid 2px lightblue;
+  width:50%;
+}
+#album{
+  border:solid 2px lightgreen;
+  width:30%;
+}
+#info{
+  border:solid 2px pink;
+  width:18%; 
+}
+#player{
+  display:inline-block
+}
 
+#player audio::-webkit-media-controls-play-button{
+  display:none;
+}
+
+#player button{
+  float:left;
+}
+
+#player audio {
+  height:1em
+}
