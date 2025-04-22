@@ -33,3 +33,9 @@ ul{
   list-style-type:none;
 }
 
+#additem{
+  background-color:rgb(0,0,255,0.5);
+}
+#clearitem{
+  background-color:rgb(255,0,0,0.5)
+}
