@@ -1,3 +1,4 @@
+
 body{ 
   background-color:#FBA29D;      
   color:black; 
@@ -30,12 +31,12 @@ h3.heading{
 }
 .bordered{ 
   border-style: solid; 
-  border-color: #ffffff; 
+  border-color: #FFC2BE; 
   border-width: 3px; 
   padding: 5px; 
   margin: 5px;
   border-radius:10px;
-  background-color:#FFB0AB;  
+  background-color:#FFC2BE;  
   color:#131313; 
 }
 a{
@@ -54,4 +55,52 @@ hr {
 #footer{
   font-size:large;
   text-align:center;
+}
+#nav-list {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  position: relative;
+  background-color: #FFC2BE;
+  border:solid #FEB6B2 1px;
+  border-radius:10px;
+}
+
+#nav-list > li {
+  flex-grow: 1;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+nav-list li a {
+  display: inline-block;
+  width: 100%;
+  color: #000;
+}
+
+#nav-list ul {
+  display: none;
+}
+
+#nav-list li:hover {
+  background-color: #FEB6B2;
+  color: #112;
+}
+
+#nav-list li:hover ul {
+  display: block;
+  background-color:#FEB6B2;
+  border:solid #FEB6B2 1px;
+  border-radius:10px;
+}
+
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
+  width: 100%
 }
