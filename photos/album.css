@@ -18,4 +18,8 @@
 #big-img{
   border:solid white 5px;
   border-radius:3px;
+  position:fixed;
+  z-index:999;
+  top:20%;
+  width:80%;
 }
