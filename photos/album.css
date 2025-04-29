@@ -6,7 +6,8 @@
   padding:2em;
   text-align:center;
   margin:0.5em;
-  border:solid #FFC2BE 3px;
+  border:solid 3px;
+  border-color:#FFC2BE;
   border-radius:3px;
 }
 .photo-container img{
