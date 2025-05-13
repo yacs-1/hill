@@ -55,5 +55,15 @@ body{
 
 
 #winner{
-  display:none;
+  display: none;
+  position: fixed;
+  top: 40%;
+  left:22%;
+  right:25%;
+  text-align:center;
+  z-index:999;
+  background-color:#FFC2BE;
+  padding:2em;
+  font-size:xx-large;
 }
+
