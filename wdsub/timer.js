@@ -21,6 +21,6 @@ if (!hasInitDate) {
 
 let timeSpent = document.getElementById("time-spent");
 let numHours = Math.floor(timeDiff / 3600000);
-let numMins = Math.floor((timeDiff % 3600000) * 60);
+let numMins = Math.floor((timeDiff % 3600000) * 60000);
 let diffStr = numHours + ":" + numMins;
 timeSpent.innerHTML = diffStr;
