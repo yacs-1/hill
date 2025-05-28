@@ -12,7 +12,7 @@
   <body>
      <div id="gheader"></div>
     <script src="/hill/global-header.js"></script>
-    <h2 class="bordered" class="heading">🌸 Welcome <span id="user-span"></span>to Rylee's Website 🌸</h2>
+    <h2 class="bordered" class="heading">🌸 Welcome <span id="userspan"></span>to Rylee's Website 🌸</h2>
     <h2 class="heading">Weekly Webpage Submissions</h2>
     <div class="bordered">
     <ol>
@@ -77,8 +77,8 @@
       let urlParams = new URLSearchParams(window.location.search);
       if (urlParams.has("variable1")) {
         let username = urlParams.get("variable1");
-        let userspan = document.getElementById("user-span");
-        userspan.innertext = ", " + username + ", ";
+        let userspan = document.getElementById("userspan");
+        userspan.innerText = ", " + username + ", ";
       }
     </script>
   </body>
